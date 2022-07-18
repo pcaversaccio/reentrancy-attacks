@@ -1,6 +1,6 @@
-# A Collection of Reentrancy Attacks
+# A Historical Collection of Reentrancy Attacks
 
-A chronological and complete list of reentrancy attacks to date.
+A chronological and (hopefully) complete list of reentrancy attacks to date.
 
 - [The DAO attack](https://medium.com/@zhongqiangc/smart-contract-reentrancy-thedao-f2da1d25180c) – June 17, 2016
 - [SpankChain attack](https://medium.com/swlh/how-spankchain-got-hacked-af65b933393c) – October 9, 2018
