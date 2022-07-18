@@ -7,16 +7,25 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  unit:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
           bundler-cache: true
+
       - name: Install awesome_bot
         run: gem install awesome_bot
-      - name: Check URLs
+
+      - name: Validate URLs
         run: awesome_bot README.md --allow-redirect --request-delay 0.4
