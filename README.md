@@ -1,4 +1,4 @@
-# A Historical Collection of Reentrancy Attacks
+# ⚔️ A Historical Collection of Reentrancy Attacks
 
 A chronological and (hopefully) complete list of reentrancy attacks to date.
 
