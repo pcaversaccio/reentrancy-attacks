@@ -2,6 +2,7 @@
 
 A chronological and (hopefully) complete list of reentrancy attacks to date.
 
+- [WETH white hat attack](https://github.com/pcaversaccio/reentrancy-attacks/issues/1#issuecomment-1188680199) – June 11, 2016
 - [The DAO attack](https://medium.com/@zhongqiangc/smart-contract-reentrancy-thedao-f2da1d25180c) – June 17, 2016
 - [SpankChain attack](https://medium.com/swlh/how-spankchain-got-hacked-af65b933393c) – October 9, 2018
 - [imBTC Uniswap pool attack](https://defirate.com/imbtc-uniswap-hack) – April 18, 2020
