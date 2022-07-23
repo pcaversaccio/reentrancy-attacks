@@ -1,5 +1,12 @@
 # ⚔️ A Historical Collection of Reentrancy Attacks
 
+**Definition of a Reentrancy Attack:** Unsafe external calls that allow malicious manipulation of the internal and/or associated external contract state(s).
+
+**Types of Reentrancy Attacks:**
+- Single Function Reentrancy
+- Cross-Function Reentrancy
+- Cross-Contract Reentrancy
+
 A chronological and (hopefully) complete list of reentrancy attacks to date.
 
 - [WETH white hat attack](https://github.com/pcaversaccio/reentrancy-attacks/issues/1#issuecomment-1188680199) – June 11, 2016
