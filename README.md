@@ -1,7 +1,7 @@
 # ⚔️ A Historical Collection of Reentrancy Attacks
 
 [![👮‍♂️ Validate links](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/ci.yml/badge.svg)](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/ci.yml)
-[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net)
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net/about)
 
 **📌 Definition of a Reentrancy Attack**
 
