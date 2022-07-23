@@ -1,9 +1,9 @@
 # ⚔️ A Historical Collection of Reentrancy Attacks
 
-**Definition of a Reentrancy Attack:**
+**📌 Definition of a Reentrancy Attack**
 > Unsafe external calls that allow malicious manipulation of the internal and/or associated external contract state(s).
 
-**Types of Reentrancy Attacks:**
+**📚 Types of Reentrancy Attacks**
 - Single Function Reentrancy
 - Cross-Function Reentrancy
 - Cross-Contract Reentrancy
@@ -36,7 +36,7 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 - [Fei Protocol attack](https://certik.medium.com/fei-protocol-incident-analysis-8527440696cc) – April 30, 2022
 - [Bistroo attack](https://bistroo.medium.com/post-incident-review-bist-single-asset-staking-binancesmartchain-security-breach-5194590605f) – May 7, 2022
 - [Ownly attack](https://twitter.com/ownlyio/status/1524362090940895234) – May 10, 2022
-- [OMNI attack](https://twitter.com/BlockSecTeam/status/1546141457933025280) – July 10, 2022
+- [Omni attack](https://twitter.com/BlockSecTeam/status/1546141457933025280) – July 10, 2022
 
 ## Disclaimer
 
