@@ -1,12 +1,19 @@
 # ⚔️ A Historical Collection of Reentrancy Attacks
 
+[![👮‍♂️ Validate links](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/ci.yml/badge.svg)](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/ci.yml)
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net)
+
 **📌 Definition of a Reentrancy Attack**
-> Unsafe external calls that allow malicious manipulation of the internal and/or associated external contract state(s).
+
+> Unsafe _external_ calls that allow malicious manipulation of the internal and/or associated external contract state(s).
 
 **📚 Types of Reentrancy Attacks**
+
 - Single Function Reentrancy
 - Cross-Function Reentrancy
 - Cross-Contract Reentrancy
+
+**📜 Reentrancy Attacks List**
 
 A chronological and (hopefully) complete list of reentrancy attacks to date.
 
