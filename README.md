@@ -1,6 +1,7 @@
 # ⚔️ A Historical Collection of Reentrancy Attacks
 
-**Definition of a Reentrancy Attack:** Unsafe external calls that allow malicious manipulation of the internal and/or associated external contract state(s).
+**Definition of a Reentrancy Attack:**
+> Unsafe external calls that allow malicious manipulation of the internal and/or associated external contract state(s).
 
 **Types of Reentrancy Attacks:**
 - Single Function Reentrancy
