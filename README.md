@@ -45,6 +45,6 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 - [Ownly attack](https://twitter.com/ownlyio/status/1524362090940895234) – May 10, 2022
 - [Omni attack](https://twitter.com/BlockSecTeam/status/1546141457933025280) – July 10, 2022
 
-## Disclaimer
+## 💢 Disclaimer
 
 ![nobody-reads-ever-a-fucking-disclaimer](https://user-images.githubusercontent.com/25297591/167394075-1813e258-3b03-4bc8-9305-69126a07d57e.png)
