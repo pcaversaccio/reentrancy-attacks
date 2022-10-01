@@ -40,10 +40,12 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 - [Agave Finance attack](https://twitter.com/Mudit__Gupta/status/1503783633877827586) – March 16, 2022
 - [Revest Finance attack](https://slowmist.medium.com/revest-finance-incident-analysis-6fcd9b6be207) – March 27, 2022
 - [Voltage Finance attack](https://rekt.news/voltage-finance-rekt) – March 31, 2022
+- [BNB Brokers attack](https://twitter.com/BlockSecTeam/status/1519249933832171520) – April 27, 2022
 - [Fei Protocol attack](https://certik.medium.com/fei-protocol-incident-analysis-8527440696cc) – April 30, 2022
 - [Bistroo attack](https://bistroo.medium.com/post-incident-review-bist-single-asset-staking-binancesmartchain-security-breach-5194590605f) – May 7, 2022
 - [Ownly attack](https://twitter.com/ownlyio/status/1524362090940895234) – May 10, 2022
 - [Omni attack](https://twitter.com/BlockSecTeam/status/1546141457933025280) – July 10, 2022
+- [Thunder Brawl attack](https://twitter.com/peckshield/status/1575890733373849601) – September 30, 2022
 
 ## 💢 Disclaimer
 
