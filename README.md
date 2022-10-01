@@ -9,7 +9,7 @@
 
 **📚 Types of Reentrancy Attacks**
 
-- Single Function Reentrancy
+- Single-Function Reentrancy
 - Cross-Function Reentrancy
 - Cross-Contract Reentrancy
 
