@@ -30,6 +30,7 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 - [PolyDEX attack](https://polydex.medium.com/plx-locker-smart-contract-incident-post-mortem-75342124a3e8) – June 20, 2021
 - [DeFiPie attack](https://medium.com/defipie/hacking-investigation-85e07454f1c9) – July 12, 2021
 - [Sanshu Inu attack](https://sanshunft.medium.com/woofdate-2-2-0-keanu-compensation-mfund-rebase-update-bcac09707e19) – July 20, 2021
+- [XSURGE attack](https://medium.com/@Knownsec_Blockchain_Lab/knownsec-blockchain-lab-comprehensive-analysis-of-xsurge-attacks-c83d238fbc55) – August 16, 2021
 - [C.R.E.A.M. Finance attack](https://inspexco.medium.com/reentrancy-attack-on-cream-finance-incident-analysis-1c629686b6f5) – August 30, 2021
 - [Grim Finance attack](https://rekt.news/grim-finance-rekt) – December 18, 2021
 - [Visor Finance attack](https://medium.com/visorfinance/post-mortem-for-vvisr-staking-contract-exploit-and-upcoming-migration-7920e1dee55a) – December 21, 2021
