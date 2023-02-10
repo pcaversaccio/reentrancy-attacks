@@ -12,6 +12,7 @@
 - Single-Function Reentrancy
 - Cross-Function Reentrancy
 - Cross-Contract Reentrancy
+- Read-Only Reentrancy
 
 **📜 Reentrancy Attacks List**
 
