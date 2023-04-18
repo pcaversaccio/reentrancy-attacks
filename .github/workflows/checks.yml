@@ -1,4 +1,4 @@
-name: 👮‍♂️ Validate links
+name: 👮‍♂️ Sanity checks
 
 on: [push, pull_request]
 
@@ -7,7 +7,28 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  unit:
+  prettier:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+        node_version:
+          - 16
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Run Prettier
+        run: npx prettier -c '**/*.{md,yml}'
+
+  validate-links:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
