@@ -1,6 +1,6 @@
 # ⚔️ A Historical Collection of Reentrancy Attacks
 
-[![👮‍♂️ Validate links](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/checks.yml/badge.svg)](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/checks.yml)
+[![👮‍♂️ Sanity checks](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/checks.yml/badge.svg)](https://github.com/pcaversaccio/reentrancy-attacks/actions/workflows/checks.yml)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **📌 Definition of a Reentrancy Attack**
