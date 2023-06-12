@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - name: Run Prettier
-        run: npx prettier -c '**/*.{md,yml}'
+        run: npx prettier -c '**/*.{md,yml,yaml}'
 
   validate-links:
     runs-on: ${{ matrix.os }}
