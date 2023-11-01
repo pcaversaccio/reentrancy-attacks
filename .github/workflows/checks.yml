@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node_version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node_version }}
 
@@ -34,7 +34,7 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-        ruby-version:
+        ruby_version:
           - 3.2
 
     steps:
@@ -44,7 +44,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby-version }}
+          ruby-version: ${{ matrix.ruby_version }}
           bundler-cache: true
 
       - name: Install awesome_bot
