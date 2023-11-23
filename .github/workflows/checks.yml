@@ -51,4 +51,5 @@ jobs:
         run: gem install awesome_bot
 
       - name: Validate URLs
-        run: awesome_bot README.md --allow-redirect --request-delay 0.4
+        # The Sentiment attack transaction (https://arbiscan.io/tx/0xa9ff2b587e2741575daf893864710a5cbb44bb64ccdc487a100fa20741e0f74d) takes a very long time to load, which is why we have set the delay threshold to 90 seconds.
+        run: awesome_bot README.md --allow-redirect --request-delay 90
