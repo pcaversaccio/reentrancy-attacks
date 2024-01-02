@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v4
@@ -35,11 +35,11 @@ jobs:
         os:
           - ubuntu-latest
         ruby_version:
-          - 3.2
+          - 3.3
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
