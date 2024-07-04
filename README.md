@@ -86,6 +86,7 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 - [The Smoofs attack](https://x.com/AnciliaInc/status/1762893563103428783) – 28 February 2024 | [Victim contract](https://polygonscan.com/address/0x757C2d1Ef0942F7a1B9FC1E618Aea3a6F3441A3C), [Exploit contract](https://polygonscan.com/address/0x367120bf791cc03f040e2574aea0ca7790d3d2e5), [Exploit transaction](https://polygonscan.com/tx/0xde51af983193b1be3844934b2937a76c19610ddefcdd3ffcf127db3e68749a50)
 - [Sumer Money attack](https://x.com/0xNickLFranklin/status/1778986926705672698) – 12 April 2024 | [Victim contract](https://basescan.org/address/0x142017b52c99d3dFe55E49d79Df0bAF7F4478c0c), [Exploit contract](https://basescan.org/address/0x13D27a2D66eA33A4bC581d5fEFB0b2A8dEfe9fE7), [Exploit transaction](https://basescan.org/tx/0x619c44af9fedb8f5feea2dcae1da94b6d7e5e0e7f4f4a99352b6c4f5e43a4661)
 - [Predy Finance attack](https://predyfinance.medium.com/postmortem-report-on-the-details-of-the-events-of-may-14-2024-8690508c820b) – 14 May 2024 | [Victim contract](https://arbiscan.io/address/0x9215748657319B17fecb2b5D086A3147BFBC8613), [Exploit contract](https://arbiscan.io/address/0x8afFdD350eb754b4652D9EA5070579394280CaD9), [Exploit transaction](https://arbiscan.io/tx/0xbe163f651d23f0c9e4d4a443c0cc163134a31a1c2761b60188adcfd33178f50f)
+- [Mint Raises Prices attack](https://x.com/0xNickLFranklin/status/1808309614443733005) – 2 July 2024 | [Victim contract](https://bscscan.com/address/0x35F5cEf517317694DF8c50C894080caA8c92AF7D), [Exploit contract](https://bscscan.com/address/0x2Bd8980A925E6f5a910be8Cc0Ad1CfF663E62d9D), [Exploit transaction](https://bscscan.com/tx/0x4353a6d37e95a0844f511f0ea9300ef3081130b24f0cf7a4bd1cae26ec393101)
 
 > Some of the exploits carried out involve multiple separate transactions as well as multiple victim and exploit contracts. For each attack, I have listed the most affected victim contract, the most critical exploit contract, and the most devastating exploit transaction.
 
@@ -94,10 +95,17 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 <img src=https://user-images.githubusercontent.com/25297591/167394075-1813e258-3b03-4bc8-9305-69126a07d57e.png width="1050"/>
 
 [^1]: To prevent the article from constantly reloading, deactivate JavaScript in your browser.
+
 [^2]: We list the attacker's address here for the sake of completeness, but technically the attack was executed with a Near-specific transaction type called ["Batch Transaction"](https://nomicon.io/RuntimeSpec/Transactions#batched-transaction) and not with a specific exploit contract.
+
 [^3]: We list the victim contract, the exploit contract, and the exploit transaction on Arbitrum. However, the same exploit was carried out on Optimism with almost the same amount of loss: [Victim contract](https://optimistic.etherscan.io/address/0xDFeC2EA848Cf8fdA096503f8D9F37AFac6E0ECF2), [Exploit contract](https://optimistic.etherscan.io/address/0xEe29b6AEE6E4783Db176946e4e8F1E5fDCD446A7), [Exploit transaction](https://optimistic.etherscan.io/tx/0x6c19762186c9f32c81eb2a79420fc7ad4485aa916cab37ec278b216757bfba0d).
+
 [^4]: The same exploit hit another victim with almost the same amount of loss: [Victim contract](https://arbiscan.io/address/0x4c8e1656E042A206EEf7e8fcff99BaC667E4623e).
+
 [^5]: The same exploit hit two other victims with almost the same amount of loss: [Victim contract 2](https://arbiscan.io/address/0x367351F854506DA9B230CbB5E47332b8E58A1863), [Victim contract 3](https://arbiscan.io/address/0xD3e323a672F6568390f29f083259debB44C41f41).
+
 [^6]: We list the victim contract, the exploit contract, and the exploit transaction on Optimism. However, the same exploit was carried out on Ethereum, albeit with a smaller loss amount: [Victim contract](https://etherscan.io/address/0x9aa024D3fd962701ED17F76c17CaB22d3dc9D92d), [Exploit contract](https://etherscan.io/address/0x56A35FAe9b0416360e1752A9abE78D89F51517CF), [Exploit transaction](https://etherscan.io/tx/0xefc4ac015069fdf9946997be0459db44c0491221159220be782454c32ec2d651).
+
 [^7]: We list the victim contract, the exploit contract, and the exploit transaction on Polygon. However, the same exploit was carried out on Ethereum, albeit with a smaller loss amount: [Victim contract](https://etherscan.io/address/0x429032A407aed3D5fF84caf38EFF217eB4d322A9), [Exploit contract](https://etherscan.io/address/0xdFcDB5A86b167B3A418F3909D6f7A2f2873F2969), [Exploit transaction](https://etherscan.io/tx/0xcb0ad9da33ecabf75df0a24aabf8a4517e4a7c5b1b2f11fee3b6a1ad9299a282).
+
 [^8]: The technical post-mortem on the reentrancy lock vulnerability from Vyper can be found [here](https://hackmd.io/@vyperlang/HJUgNMhs2).
