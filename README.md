@@ -112,4 +112,4 @@ A chronological and (hopefully) complete list of reentrancy attacks to date.
 
 [^8]: The technical post-mortem on the reentrancy lock vulnerability from Vyper can be found [here](https://hackmd.io/@vyperlang/HJUgNMhs2).
 
-[^9]: The details of the GitHub Security Advisory (GHSA) used to exploit Astroport can be found [here] (https://github.com/cosmos/ibc-go/security/advisories/GHSA-j496-crgh-34mx).
+[^9]: The details of the GitHub Security Advisory (GHSA) used to exploit Astroport can be found [here](https://github.com/cosmos/ibc-go/security/advisories/GHSA-j496-crgh-34mx).
