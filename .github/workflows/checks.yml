@@ -35,7 +35,7 @@ jobs:
         os:
           - ubuntu-latest
         ruby_version:
-          - 3.3
+          - 3.4
 
     steps:
       - name: Checkout
